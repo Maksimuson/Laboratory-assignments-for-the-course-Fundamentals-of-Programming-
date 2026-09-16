@@ -5,10 +5,10 @@
 void welcome()
 {
     puts("Lab 1. Var 2. Student Shmakov Maksym, group IPZ-13");
-    puts("Exersice 2");
+    puts("Exercise 2");
 }
 
-bool ExistenceCheck(float a, float b, float c) //Checking whether a triangle exists
+bool ExistenceCheck(double a, double b, double c) // Checking whether a triangle exists
 {
     if (a > 0 && b > 0 && c > 0 && (a + b > c) && (b + c > a) && (c + a > b))
     {
@@ -21,16 +21,17 @@ bool ExistenceCheck(float a, float b, float c) //Checking whether a triangle exi
         return false;
     }
 }
-float area(float a, float b, float c)
+
+double area(double a, double b, double c)
 {
-    float p = (a + b + c) / 2.0f;
+    double p = (a + b + c) / 2.0;
     return std::sqrt(p * (p - a) * (p - b) * (p - c));
 }
 
 int main()
 {
     welcome();
-    float a, b, c;
+    double a, b, c;
 
     do {
         std::cout << "Please enter the first side of the triangle: ";
