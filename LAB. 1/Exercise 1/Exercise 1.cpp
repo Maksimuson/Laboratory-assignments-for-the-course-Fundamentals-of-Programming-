@@ -4,7 +4,7 @@
 
 void welcome()
 {
-	puts("Lab 1. Var 2. Student Shmakov Maksym, group IPZ-13");
+	puts("Lab 1. Var 2. Student _______, group IPZ-13");
 	puts("Exercise 1");
 }
 
