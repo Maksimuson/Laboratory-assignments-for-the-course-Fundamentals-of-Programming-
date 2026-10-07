@@ -14,7 +14,7 @@ float member;          // елемент ряду
 
 void welcome()
 {
-    puts("Lab 3. Var 8. Student Shmakov Maksym, group IPZ-13");
+    puts("Lab 3. Var 8. Student ______, group IPZ-13");
     puts("Exercise 1");
 }
 
